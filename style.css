@@ -1,19 +1,47 @@
+
 html {
   height: 100%;
   width: 100%;
+
+}
+.header {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.logo {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  height: 100px;
+  width: 500px;
+}
+
+.time {
+  font-size: 10px;s
+}
+
+.search-box {
+  margin: 0px auto;
+  width: 20%;
+}
 }
 
 body {
   height: 95%;
   width: 100%;
   font-family: sans-serif;
-  background-image: url('http://addyosmani.com/blog/wp-content/uploads/2013/04/unicorn.jpg');
+  background-image: url('http://bossfight.co/wp-content/uploads/2015/11/boss-fight-free-stock-high-resolution-photos-photography-images-creative-commons-zero-mountain-range-snow.jpg');
+  background-size: 100%;
+  background-repeat: repeat;
+
 }
 
 .main-container {
   width: 75%;
   margin: 10px auto;
-  background: rgba(255, 255, 255, 0.86);
+  background: rgba(255, 255, 255, 0.6);
   padding: 5px;
   border-radius: 10px;
 }
@@ -31,4 +59,12 @@ p{
   text-align: center;
   margin: 3px 0;
   font-size: 17px;
+}
+.messages-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  border-top: double black 2px;
+  flex-flow: column;
+
 }
